@@ -20,7 +20,7 @@ public class SellerDTO
     public SellerDTO( SellerAmountProjection projection )
     {
         name = projection.getName();
-        amount = projection.getTotal();
+        amount = projection.getAmount();
     }
 
     public String getName()
